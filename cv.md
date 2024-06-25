@@ -1,6 +1,6 @@
 # **Kritsyn Petr**
 
-## Conatacts:
+## Conatacts
 
 * Telegram: @petrk4
 * GitHub: [petrk4](https://github.com/petrk4)

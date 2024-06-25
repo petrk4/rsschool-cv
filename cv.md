@@ -1,13 +1,13 @@
 # **Kritsyn Petr**
-## Conatacts:
+# Conatacts:
 * Telegram: @petrk4
 * GitHub: [petrk4](https://github.com/petrk4)
-## About me
+# About me
 I am 20 years old, studying at MIREA as software engineer and working as a hardware engineer in Datacenter.
-## Skills
+# Skills
 * **Soft**: Communication, Attentiveness.
 * **Hard**: Python(Procedural programming, OOP); C++(OOP); Java(basics); Hardware Engineer skills.
-## Coding
+# Coding
 *Checking the Queen`s move*
 ```
 def QueenMove(x_present, y_present, x_potential, y_potential):

@@ -2,9 +2,95 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <title> Title </title>
+  <title> CV Crosscheck </title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="wrapper">
+  <header>
+    <nav>
+      <ul class="nav">
+        <li><a class="link" href="#AboutMe">About me</a></li>
+        <li><a class="link" href="#Skills">Skills</a></li>
+        <li><a class="link" href="#Contact">Contact</a></li>
+        <li><a class="link" href="#Codeexaple">Code exaple</a></li>
+        <li><a class="link" href="#MyProjects">My Projects</a></li>
+        <li><a class="link" href="#Education&Languages">Education&Languages</a></li>
+      </ul>
+    </nav>
+    <div class="headerpart">
+      <div class="first_column">
+        <img src="me.JPG" alt="avatar" width="480px">
+      </div>
+      <div class="second_column">
+        <h1 class="name"> Petr <br> Kritsyn </h1>
+        <h3 class="subtitle"> Front-End Developer</h3>
+        <div>
+          <h2 class="contur_r" id="Contact">Contact</h2>
+          <ul class="no_pad">
+            <li class="cont">Telegram: <br> @petrk4 </li>
+            <li class="cont">Email: <br>pitkrit@yandex.ru </li>
+            <li class="cont">Adress: <br> Moscow, Russia</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="mainpart">
+    <div class="m_fc">
+      <h2 class="contur_l" id="AboutMe">
+        About me
+      </h2>
+      <p class="margin">
+        I am 20 years old, studying at MIREA as software engineer and working as a hardware engineer in Datacenter.
+      </p>
+      <h2 class="contur_l" id="Skills"> Skills </h2>
+      <ul class="no_pad">
+        <li class="cont_s">Python(Procedural programming, OOP) </li>
+        <li class="cont_s">C++(OOP) </li>
+        <li class="cont_s">Java(basics)</li>
+        <li class="cont_s">Hardware Engineer skills</li>
+      </ul>
+    </div>
+    <div class="m_sc">
+      <h2 class="contur_r" id="Codeexaple"> Code exaple </h2>
+      <pre class="code margin">
+def QueenMove(x_present, y_present, x_potential, y_potential):
+diff_x = x_present - x_potential
+diff_y = y_present - y_potential
+if diff_x < 0:
+  diff_x *= -1
+if diff_y < 0:
+  diff_y *= -1
+if diff_x == diff_y or x_present == x_potential or y_present == y_potential:
+  print('YES')
+else:
+  print('NO')</pre>
+      <h2 class="contur_r" id="MyProjects"> My Projects </h2>
+      <div class="contp">
+        <a class="link" href="">My CV</a>
+      </div>
+      <h2 class="contur_r" id="Education&Languages">Education&Languages</h2>
+      <ul class="no_pad margin">
+        <li class="cont">Studying at the 2nd year at MIREA as a software engineer</li>
+        <li class="cont">Russian - native speaker</li>
+        <li class="cont">English - B1</li>
+      </ul>
+    </div>
+  </main>
+  <footer class="footerpart">
+    <div class="footer_f">
+      <a href="https://github.com/petrk4">
+        <img src="github.png" alt="github-logo" width="48">
+      </a>
+    </div>
+    <div class="footer_s">
+      2024
+    </div>
+    <div class="footer_t">
+      <a href="https://rs.school/">
+        <img src="https://itmentor.by/images/events/phpczSsNK.svg" alt="RSS-logo" width="50">
+      </a>
+    </div>
+  </footer>
 </body>
 </html>
